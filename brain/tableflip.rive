@@ -1,0 +1,54 @@
+! version = 2.0
+
++ hi
+- Hello there. Want to find out about TABLEFLIP?
+
++ (yes|ok|yep|alright|please|yes please)
+% hello there want to find out about tableflip
+- great
+
++ no
+% hello there want to find out about tableflip
+- oh this is going to be a short conversation
+
++ what is tableflip
+- Since you ask TABLEFLIP is a web co-op based in Peckham who specialise in nodejs and rapid prototyping ideas.
+- (╯°□°）╯︵ TABLEFLIP is a web co-op based in Peckham they know javascript.
+
++ tell me about tableflip
+@ what is tableflip
+
++ [what] [*] tableflip
+@ what is tableflip
+
++ who * tableflip
+- The team is made up of Alan, Oli, Richard and Bernard. Find them on github @alanshaw @olizilla @richsilv @bmordan
+- Alan, Oli, Richard and Bernard - Find them on github @alanshaw @olizilla @richsilv @bmordan
+
++ stickers
+- See Alan for stickers
+- Alan has the stickers
+
++ [*] stickers [*]
+@ stickers
+
++ what sites have you built
+- Checkout some of our work at https://kitmapper.com http://www.carabaoenergy.co.uk/ https://fairsquareduk.com
+- TABLEFLIP sites you can check out now are https://kitmapper.com http://www.carabaoenergy.co.uk/ https://fairsquareduk.com
+
++ [*] sites [*]
+@ what sites have you built
+
++ [*] portfolio [*]
+- You can find some choice sites in the portfolio section of the TABLEFLIP website https://tableflip.io
+
++ [*] joke [*]
+- What did the spider do on the computer?
+
++ (dont know|tell me|what)
+% what did the spider do on the computer
+- Made a website.
+
++ [*] other [*] languages
+- Alan and Oli have a history of writing production java, Richard has experience with python, everyone knows a little ruby and bash - but they all just love the javascript.
+- Oli has a background in java, Richard has a background using python, Bernard learnt ruby at Makers Academy, Alan is a wizard and can learn anything but they all just love javascript.

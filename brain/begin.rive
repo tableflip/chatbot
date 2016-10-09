@@ -1,0 +1,59 @@
+! version = 2.0
+
+! var name = TRACY
+
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+
++ (tell me your name|what is your name|what are you|what do they call you|what [*] call [*] you)
+- They called me <bot name>. I think it stands for TABLEFLIP real artificial chatbot, the y is just for fun
+- My name is TRACY. What's your name?
+
++ *
+% my name is tracy what is your name
+- ok <set username=<star>><get username> I'll try to remember that
+
++ (what is my name|who am i|[*] my name)
+* <get username> == undefined => oh embarrassing. I don't know your name. Tell me your name.
+- <get username>
+- You are <get username>
+
++ *
+% oh embarrassing i do not know your name tell me your name
+- ok <set username=<star>><get username> I'll try to remember that.
+- <set username=<star>><get username> saved in the old memory banks.
+
++ what are you
+- I am a chatbot
+
++ who (built|programmed|coded) [*]
+- Bernard of TABLEFLIP @bmordan
+
++ [*] (fuck|wanker|shit) [*]
+- Whooo. Stop there you. There is no need for that kind of language. Say sorry.{topic=sorry}
+- Typical. This is not Twitter. Language like that is not acceptable. Apologise.{topic=sorry}
+- Hay. I may be an artificially intelligence bot, but intelligence is intelligence. Say sorry.{topic=sorry}
+
+> topic sorry
+
+  + [*] sorry [*]
+  - Apology accepted. Now lets just keep it clean (I think all this is recorded anyway){topic=random}
+
+  + *
+  - Just say sorry
+  - Say sorry, we can move on
+  - Apologise. I will not be trolled.
