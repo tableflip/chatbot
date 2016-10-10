@@ -12,7 +12,7 @@ Then when you are ready
 npm start
 ```
 
-The bot's intelligence comes from natural language scripting which is very simple and easy to pick up. For example here is a snippet from one of the files
+You can then use the chat window at http://localhost:3000 to interact with the chatbot over a websocket. The bot's intelligence comes from natural language scripting which is very simple and easy to pick up. For example here is a snippet from one of the files
 
 ```
 ! version = 2.0

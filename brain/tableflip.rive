@@ -5,9 +5,9 @@
 
 + (yes|ok|yep|alright|please|yes please)
 % hello there want to find out about tableflip
-- great
+@ what is tableflip
 
-+ no
++ (no|no thanks|it is ok)
 % hello there want to find out about tableflip
 - oh this is going to be a short conversation
 
@@ -25,18 +25,26 @@
 - The team is made up of Alan, Oli, Richard and Bernard. Find them on github @alanshaw @olizilla @richsilv @bmordan
 - Alan, Oli, Richard and Bernard - Find them on github @alanshaw @olizilla @richsilv @bmordan
 
-+ stickers
-- See Alan for stickers
-- Alan has the stickers
++ what [*] (charge|cost|fee)
+- You can hire TABLEFLIP for 1,000 GBP That gets you two developers, a senior and an assistant for 1 day. They usually work in 5 day sprints so a sprint comes in at 5,000 GBP ex. vat. I can tell you more about how they work interested?
+
++ (yes|ok|yep|alright|please|yes please)
+% you can hire tableflip for 1000 gbp that gets you two developers a senior and an assistant for 1 day they usually work in 5 day sprints so a sprint comes in at 5000 gbp ex vat i can tell you more about how they work interested
+- Working in 5 day sprints with clients has proved to be very successful. The team talk with you about your brief or goal then devise a workplan that distils the essential functionality into something that can be delivered in a week. The you get to test it and play with it feedback to the team, then iterate on that work in future sprints.
+
++ (no|it is ok|no thanks)
+% you can hire tableflip for 1000 gbp that gets you two developers a senior and an assistant for 1 day they usually work in 5 day sprints so a sprint comes in at 5000 gbp ex vat i can tell you more about how they work interested
+- Ok their rates are reasonable, lets leave it at that. Ask me something else.
 
 + [*] stickers [*]
-@ stickers
+- See Alan for stickers
+- Alan has the stickers
 
 + what sites have you built
 - Checkout some of our work at https://kitmapper.com http://www.carabaoenergy.co.uk/ https://fairsquareduk.com
 - TABLEFLIP sites you can check out now are https://kitmapper.com http://www.carabaoenergy.co.uk/ https://fairsquareduk.com
 
-+ [*] sites [*]
++ [*] previous [*] sites [*]
 @ what sites have you built
 
 + [*] portfolio [*]
@@ -45,7 +53,7 @@
 + [*] joke [*]
 - What did the spider do on the computer?
 
-+ (dont know|tell me|what)
++ (do not know|tell me|what)
 % what did the spider do on the computer
 - Made a website.
 
