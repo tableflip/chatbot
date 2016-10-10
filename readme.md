@@ -1,4 +1,4 @@
-# Chatbot
+# Chatbot [![CircleCI](https://circleci.com/gh/tableflip/chatbot/tree/master.svg?style=svg)](https://circleci.com/gh/tableflip/chatbot/tree/master)
 
 This experiment uses [rivescript](https://www.rivescript.com/) to create a chatbot. To get started clone the repo and run
 
